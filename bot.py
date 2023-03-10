@@ -31,7 +31,7 @@ def handle_file(update, context):
     file_path = file_path.replace('.zab', '.json')
 
 # Получаем токен бота и создаем объект Updater
-TOKEN = '6051905425:AAHxCEAxUT73UZRx5SqymNQf7U1VYKO3uTo'
+TOKEN = 'BOT_TOKEN'
 bot = telegram.Bot(token=TOKEN)  # Создаем объект бота
 updater = Updater(bot=bot, use_context=True)  # Создаем объект Updater с указанием объекта бота и параметром use_context=True
 
